@@ -1,6 +1,7 @@
 body {
   font-family: 'Rock Salt', cursive;
-  background: radial-gradient(#7A86AD, #432F75);
+  /* background: radial-gradient(#7A86AD, #432F75); */
+  background: black;
   font-size: 1.2em;
   width: 60%;
   margin: 20px auto;
@@ -34,4 +35,24 @@ h4 {
   border: 1px white solid;
   border-radius: 10px;
   padding: 1.5em;
+}
+
+#currentlyPlayingSong, #currentSong {
+  color: lightgray;
+}
+
+progress {
+  width: 80%;
+  margin: 10px;
+  color: white;
+  height:10px;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+}
+progress::-webkit-progress-bar-value {
+  
+  background-color: pink;
 }
