@@ -1,0 +1,37 @@
+body {
+  font-family: 'Rock Salt', cursive;
+  background: radial-gradient(#7A86AD, #432F75);
+  font-size: 1.2em;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+#songList {
+  /* color: rgb(188, 227, 236); */
+  /* background: rgb(164, 202, 209); */
+  color: white;
+  text-align: left;
+  border: 1px white solid;
+  border-radius: 10px;
+  padding: 1.5em;
+}
+
+li {
+  padding: 15px;
+}
+
+li:hover, .clickCcontrols:hover{
+  cursor: pointer;
+}
+h4 {
+  color: white;
+}
+#controls {
+  color:white;
+  border: 1px white solid;
+  border-radius: 10px;
+  padding: 1.5em;
+}
